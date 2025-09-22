@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>মা ভদ্রকালী মারুতি সার্ভিস - Taxi</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f4faff;
+      color: #333;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0077ff, #00c6ff);
+      color: white;
+      padding: 25px 10px;
+      font-size: 26px;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 30px 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .owner {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .info {
+      font-size: 18px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      border-radius: 12px;
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    .call {
+      background: linear-gradient(45deg, #28a745, #2ecc71);
+    }
+
+    .whatsapp {
+      background: linear-gradient(45deg, #25d366, #1ebe57);
+    }
+
+    .address {
+      margin-top: 30px;
+      font-size: 16px;
+      color: #444;
+    }
+
+    .map-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: linear-gradient(45deg, #0077ff, #00c6ff);
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .map-link:hover {
+      transform: scale(1.05);
+    }
+
+    /* Mobile adjustments */
+    @media(max-width: 400px){
+      .btn {
+        padding: 12px 20px;
+        font-size: 16px;
+      }
+      .map-link {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🚖 মা ভদ্রকালী মারুতি সার্ভিস
+  </header>
+
+  <div class="container">
+    <p class="owner">প্রোঃ মন্টু কুমার নায়ক</p>
+    <p class="info">সস্তা এবং নিরাপদ Taxi Service</p>
+    
+    <a href="tel:9775432043" class="btn call">📞 কল করুন</a>
+    <a href="https://wa.me/919775432043" class="btn whatsapp" target="_blank">💬 WhatsApp</a>
+    
+    <div class="address">
+      📍 ঠিকানা: 21°48'07.3"N 87°37'60.0"E <br>
+      <a href="https://www.google.com/maps/place/21%C2%B048'07.3%22N+87%C2%B037'60.0%22E" 
+         class="map-link" target="_blank">🗺 Google Map দেখুন</a>
+    </div>
+  </div>
+</body>
+</html>
